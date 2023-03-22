@@ -9,3 +9,18 @@ img{
 tr:hover{
     background-color: brown;
 }
+
+input{
+    border-radius: 3px;
+    border: 3px solid yellow;
+    background-color: red;
+}
+
+.inputcolor{
+    background-color: blue;
+}
+
+#contraseña{
+    background-color: blueviolet;
+    color: rgb(0, 255, 0);
+}
