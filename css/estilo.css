@@ -11,12 +11,16 @@ body{
 h1{
     font-size: 50px;
 }
+.contenedor.nav{
+    background-color: #ff0000;
+}
 
 .contenedor{
     width: 90%;
     max-width: 1400px;
     margin: auto;
     overflow: hidden;
+    background-color: #fff;
 }
 
 header::before{
@@ -28,8 +32,9 @@ header::before{
 nav{
     width: 100%;
     height: 88px;
-    background: #fff;
+    background: #ff0000;
     border-bottom: 1px 1px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.747);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -37,7 +42,7 @@ nav{
 
 .nav{
     display: flex;
-    height: 88px;
+    height: 80px;
     width: 100%;
     align-items: center;
 }
@@ -48,7 +53,7 @@ margin: auto;
 }
 
 .nav .enlaces-header a {
-    color: red;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;
     padding: 12px;
@@ -56,8 +61,8 @@ margin: auto;
 }
 
 .nav .enlaces-header a:hover{
-    color: #fff;
-    background-color: red;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     border-color: aliceblue;
     transition: all ease-in-out .3s;
 }
@@ -115,4 +120,93 @@ margin: 0 0 0 30px;
     text-transform: uppercase;
     box-shadow: 0 8px 32px beige;
 
+}
+
+footer{
+    background: #303030;
+    padding: 50px 0 20px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.partfooter{
+    width: 22%;
+    text-align: center;
+}
+
+.partfooter img{
+    width: 40%;
+}
+.partfooter h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    border: #ff0000;
+    padding: 5px;
+}
+.Contac{
+   margin: 10px;
+   display: block;
+text-align: left;
+}
+
+.Contac > i{
+color: #fff;
+float: left;
+margin: 0 0 0 0;
+border: 1px solid white;
+border-radius: 50%;
+height: 30px;
+width: 30px;
+line-height: 28px;
+text-align: center;
+align-items: center;
+}
+
+.Contac > p{
+    margin-left: 50px;
+    align-items: center;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.partfooter > a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.partfooter > a:hover{
+    background-color: #ff0000;
+    transition: all ease-in-out .6s;
+}
+
+.social-media > a > i{
+    font-size: 23px;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 5px;
+    transition: all ease-in-out .6s;
+}
+
+.social-media a > i:hover{
+    background-color: #ff0000;
+    border-color: #ff0000;
 }
