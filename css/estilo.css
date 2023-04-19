@@ -122,6 +122,103 @@ margin: 0 0 0 30px;
 
 }
 
+/* education */
+
+.content-education{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-around;
+    background-color: #000000dc;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.education{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.education:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: all ease-in-out .5s;
+}
+
+.education a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #303030;
+}
+
+.education a:hover{
+    color: #ff0000;
+}
+
+.education i{
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+/* certificados  */
+
+.content-certificados{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 40px;
+}
+
+.certificado{
+    background: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 22%;
+    padding: 15px;
+    margin: 10px 10px;
+    text-align: center;
+}
+ 
+.certificado img{
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.certificado a{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.certificado a:hover{
+    color: #ffffff;
+}
+
+.certificado:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: all ease-in-out .5s;
+}
+
+/* footer */
+
 footer{
     background: #303030;
     padding: 50px 0 20px 0;
@@ -188,7 +285,7 @@ align-items: center;
 
 .partfooter > a:hover{
     background-color: #ff0000;
-    transition: all ease-in-out .6s;
+    transition: all ease-in-out .3s;
 }
 
 .social-media > a > i{
@@ -203,7 +300,7 @@ align-items: center;
     margin-top: 10px;
     text-align: center;
     margin-right: 5px;
-    transition: all ease-in-out .6s;
+    transition: all ease-in-out .3s;
 }
 
 .social-media a > i:hover{
